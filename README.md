@@ -1,10 +1,11 @@
 # MCP Jenkins
 ![PyPI Version](https://img.shields.io/pypi/v/mcp-jenkins)
 [![PyPI Downloads](https://static.pepy.tech/badge/mcp-jenkins)](https://pepy.tech/projects/mcp-jenkins)
-[![test](https://github.com/lanbaoshen/mcp-jenkins/actions/workflows/test.yml/badge.svg)](https://github.com/lanbaoshen/mcp-jenkins/actions/workflows/test.yml/badge.svg)
-![License](https://img.shields.io/github/license/lanbaoshen/mcp-jenkins)
+![License](https://img.shields.io/github/license/huixin2022/jenkins-mcp)
 
 The Model Context Protocol (MCP) is an open-source implementation that bridges Jenkins with AI language models following Anthropic's MCP specification. This project enables secure, contextual AI interactions with Jenkins tools while maintaining data privacy and security.
+
+**GitHub Repository:** [https://github.com/huixin2022/jenkins-mcp](https://github.com/huixin2022/jenkins-mcp)
 
 
 ## Cursor Demo
@@ -22,9 +23,6 @@ uvx mcp-jenkins
 
 # Using pip
 pip install mcp-jenkins
-
-# Using Smithery
-npx -y @smithery/cli@latest install @lanbaoshen/mcp-jenkins --client claude
 ```
 
 #### Docker Installation
@@ -32,7 +30,7 @@ npx -y @smithery/cli@latest install @lanbaoshen/mcp-jenkins --client claude
 Pull the latest image from GitHub Container Registry:
 
 ```bash
-docker pull ghcr.io/lanbaoshen/mcp-jenkins:latest
+docker pull ghcr.io/huixin2022/jenkins-mcp:latest
 ```
 
 
@@ -291,12 +289,6 @@ uv run pytest --cov=mcp_jenkins
 Licensed under MIT - see [LICENSE](LICENSE) file. This is not an official Jenkins product.
 
 
-## MCP-Jenkins in MCP Registries
-- https://mcpreview.com/mcp-servers/lanbaoshen/mcp-jenkins
-- https://smithery.ai/server/@lanbaoshen/mcp-jenkins
-- https://glama.ai/mcp/servers/@lanbaoshen/mcp-jenkins
-- https://mseep.ai/app/lanbaoshen-mcp-jenkins
-
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=lanbaoshen/mcp-jenkins&type=Date)](https://www.star-history.com/#lanbaoshen/mcp-jenkins&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=huixin2022/jenkins-mcp&type=Date)](https://www.star-history.com/#huixin2022/jenkins-mcp&Date)
